@@ -1,7 +1,13 @@
-FROM n8nio/runners:latest
+FROM n8nio/runners:2.1.5
+
+USER root
 
 RUN pip install --no-cache-dir \
     numpy \
+    pandas \
     matplotlib \
     scikit-learn \
-    pandas
+    openpyxl \
+    requests
+
+USER node

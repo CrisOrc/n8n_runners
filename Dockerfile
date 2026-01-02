@@ -16,7 +16,6 @@ RUN pip install --no-cache-dir \
     numpy \
     pandas \
     matplotlib \
-    scikit-learn \
     openpyxl \
     requests
 
